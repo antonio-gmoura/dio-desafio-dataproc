@@ -1,0 +1,28 @@
+21/08/28 04:55:39 INFO org.sparkproject.jetty.util.log: Logging initialized @3307ms to org.sparkproject.jetty.util.log.Slf4jLog
+21/08/28 04:55:39 INFO org.sparkproject.jetty.server.Server: jetty-9.4.40.v20210413; built: 2021-04-13T20:42:42.668Z; git: b881a572662e1943a14ae12e7e1207989f218b74; jvm 1.8.0_292-b10
+21/08/28 04:55:39 INFO org.sparkproject.jetty.server.Server: Started @3427ms
+21/08/28 04:55:39 INFO org.sparkproject.jetty.server.AbstractConnector: Started ServerConnector@65dc08d3{HTTP/1.1, (http/1.1)}{0.0.0.0:34919}
+21/08/28 04:55:41 INFO com.google.cloud.hadoop.repackaged.gcs.com.google.cloud.hadoop.gcsio.GoogleCloudStorageImpl: Ignoring exception of type GoogleJsonResponseException; verified object already exists with desired state.
+21/08/28 04:55:42 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #0,5,main]) interrupted: 
+java.lang.InterruptedException
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+	at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+	at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+	at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+21/08/28 04:55:42 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #1,5,main]) interrupted: 
+java.lang.InterruptedException
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+	at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+	at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+	at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+21/08/28 04:55:42 INFO org.apache.hadoop.mapred.FileInputFormat: Total input files to process : 1
+21/08/28 04:55:46 INFO com.google.cloud.hadoop.repackaged.gcs.com.google.cloud.hadoop.gcsio.GoogleCloudStorageFileSystem: Successfully repaired 'gs://am-desafio-dataproc/resultado/_temporary/0/_temporary/attempt_202108280455428381946690318026040_0008_m_000000_0/' directory.
+21/08/28 04:55:46 INFO com.google.cloud.hadoop.repackaged.gcs.com.google.cloud.hadoop.gcsio.GoogleCloudStorageFileSystem: Successfully repaired 'gs://am-desafio-dataproc/resultado/_temporary/0/_temporary/' directory.
+21/08/28 04:55:47 INFO com.google.cloud.hadoop.repackaged.gcs.com.google.cloud.hadoop.gcsio.GoogleCloudStorageFileSystem: Successfully repaired 'gs://am-desafio-dataproc/resultado/' directory.
+21/08/28 04:55:47 INFO org.sparkproject.jetty.server.AbstractConnector: Stopped Spark@65dc08d3{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
